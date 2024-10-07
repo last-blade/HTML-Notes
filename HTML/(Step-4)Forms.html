@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(Step-4)Forms.html</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>HTML Dummy Form</legend>
+            <label for="username">Login:</label>
+            <input type="text" placeholder="abc">
+            <br> <br>
+
+
+            <label for="password">Password</label>
+            <input type="password" placeholder="1234">
+            <br><br>
+
+            <!-- CheckBox -->
+            <label for="language">Language: </label>
+            <label for="hindi">Hindi</label>
+            <input type="checkbox">
+            <label for="english">English</label>
+            <input type="checkbox">
+            <label for="other">Other</label>
+            <input type="checkbox">
+            <br> <br>
+
+            <!-- Radio buttons -->
+            <label for="gender">Gender: </label> <!--Radio button jisse ki multiple select naa ho toh iske liye humein "name" attribute add karna padta hai or name attribute ki vale saare radio buttons mein same hogi or isse fir koi ek hi radio button select hoga-->
+            <label for="male">Male</label>
+            <input type="radio" name="gender"> <!--Radio buttons-->
+            <label for="male">Female</label>
+            <input type="radio" name="gender">
+            <label for="unknown">Other</label>
+            <input type="radio" name="gender">
+            <br><br>
+
+            <!-- Submit buttonn -->
+            <button>Submit</button>
+            <br><br>
+
+            <!-- File Upload -->
+            <label for="upload">Upload</label>
+            <input type="file" name="upload" id="upload">
+            <br><br>
+
+
+            <!-- Image button or Login Button -->
+            <input type="image" src="login-buttons-sign-label-speech-login-vector.jpg" name="loginButton" id="loginButton" height="150px" width="150px">
+            <br><br>
+
+            <!-- Date -->
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date">
+            <br><br>
+            
+        </fieldset>
+    </form>
+</body>
+</html>
